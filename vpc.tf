@@ -1,5 +1,5 @@
 module "network" {
-    source  = "app.terraform.io/florinlungu/network/google"
+    source  = "app.terraform.io/izincri/network/google"
     version = "3.4.0"
   
     project_id   = var.project
